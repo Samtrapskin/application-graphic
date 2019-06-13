@@ -1,0 +1,83 @@
+h1 {
+    color: blue;
+}
+
+.apply-title {
+    font-family: 'Lato';
+    font-weight: 700;
+    font-size: 24px;
+    text-align: center;
+    color: #4a4a4a;
+    margin-bottom: 1%;
+}
+
+.build-shop-trust {
+    width: 1140px;
+    height: 160px;
+    text-align: center;
+}
+
+.cta {
+    margin-top: 50px;
+}
+
+#build {
+    height: 160px;
+    margin-right: -42px;
+}
+#shop {
+    margin-right: -38px;
+    height: 160px;
+}
+
+#trust {
+    height: 185px;
+    padding-top: 12px
+}
+
+
+@media only screen and (max-width: 954px) {
+
+    .apply-title  {
+        font-size: 12px;
+    }
+    .cta {
+        margin-top: 14px;
+    }
+    #build {
+        margin-right: -33px;
+        height:130px;
+        
+    }
+    #shop {
+        margin-right: -28px;
+        height:130px;
+    }
+    #trust {
+        height:155px;
+    }
+}
+
+@media only screen and (max-width: 789px) {
+    .build-shop-trust {
+        height: 66px
+    }
+
+    .cta {
+        margin-top: 0;
+    }
+
+    #build {
+        margin-right: -16px;
+        height:55px;
+        
+    }
+    #shop {
+        margin-right: -14px;
+        height:55px;
+    }
+    #trust {
+        height: 62px;
+        padding-top: 5px;
+    }
+}
